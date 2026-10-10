@@ -46,3 +46,4 @@ Header and footer are repeated in every HTML file. A change to the menu has to b
 GitHub Pages does not allow running an online shop or anything aimed mainly at commercial transactions. This draft has no real checkout, so it is fine as a preview. The live shop with payments belongs on Shopify (or similar), which then takes over the domain.
 
 Before launch: replace placeholder photos, check every size chart against the supplier spec, write shipping, returns and privacy pages, and remove the demo notes in the footer and cart.
+
