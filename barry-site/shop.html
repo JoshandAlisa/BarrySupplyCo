@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Shop · Barry Supply Co.</title>
+<meta name="description" content="Leashes, collars, harnesses, ID tags and long lines from Barry Supply Co. Engraved in house, shipped from Northern Colorado.">
+<meta property="og:title" content="Shop · Barry Supply Co.">
+<meta property="og:description" content="Leashes, collars, harnesses, ID tags and long lines from Barry Supply Co. Engraved in house, shipped from Northern Colorado.">
+<meta property="og:image" content="assets/img/hero-water.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Geist:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.className='js';</script>
+</head>
+<body data-mode="everyday" data-page="shop">
+<a class="skip" href="#main">Skip to content</a>
+<div class="top">
+  <div class="wrap">
+    <span>Shipped from Northern Colorado</span>
+    <span>Free shipping over $75</span>
+    <span>Engraved in house</span>
+  </div>
+</div>
+<header id="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="dot"></span><b>Barry Supply Co.</b></a>
+    <nav aria-label="Main"><ul class="nav-links">
+      <li><a href="shop.html" aria-current="page">Shop</a></li>
+      <li><a href="field.html">Barry &amp; Field</a></li>
+      <li><a href="engraving.html">Engraving</a></li>
+      <li><a href="wholesale.html">Wholesale</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <button class="cart-btn" onclick="toggleCart()" aria-label="Open cart">Cart <i id="cart-count">0</i></button>
+  </div>
+  <nav aria-label="Main mobile"><ul class="nav-scroll">
+      <li><a href="shop.html" aria-current="page">Shop</a></li>
+      <li><a href="field.html">Barry &amp; Field</a></li>
+      <li><a href="engraving.html">Engraving</a></li>
+      <li><a href="wholesale.html">Wholesale</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul></nav>
+</header>
+
+<main id="main">
+<section class="shell" id="shop">
+  <div class="wrap">
+    <div class="head-row rv">
+      <div>
+        <div class="label acc">Barry Supply Co.</div>
+        <h1 class="h-l" style="margin-top:14px">The everyday line.</h1>
+      </div>
+      <p class="lede" style="max-width:40ch">Built for school runs, trailheads, snow and wet dogs in the back of the car. Product photos are placeholders until our own shoot.</p>
+    </div>
+    <div class="filters rv" id="filters" role="group" aria-label="Filter products"></div>
+    <div class="grid rv" id="supply-grid"></div>
+  </div>
+</section>
+<section class="shell pad-t0" id="kits">
+  <div class="wrap">
+    <div class="head-row rv">
+      <div>
+        <div class="label acc">Bundles</div>
+        <h2 class="h-l" style="margin-top:14px">Two kits, nothing you won't use.</h2>
+      </div>
+      <p class="lede" style="max-width:36ch">Packed the way we would set up a dog from scratch. Same items, better price, engraving included.</p>
+    </div>
+    <div class="kits rv">
+      <div class="kit">
+        <h3 class="h-m">Puppy Start Kit</h3>
+        <ul>
+          <li>Sunset Collar, size S</li>
+          <li>Trail Leash 6 ft</li>
+          <li>Long Line 16 ft</li>
+          <li>Trailhead Treat Pouch</li>
+          <li>Engraved brass name tag, free</li>
+        </ul>
+        <div class="price-row"><span class="now">$109</span><span class="was">$131</span></div>
+        <button class="btn acc" onclick="addToCart('kit-pup','Puppy Start Kit',109,'supply','Bundle')">Add kit to cart</button>
+      </div>
+      <div class="kit dark">
+        <h3 class="h-m">First Season Kit</h3>
+        <ul>
+          <li>Field Dummy 500 g, canvas</li>
+          <li>Blaze Vest, neoprene</li>
+          <li>Tracking Lead 30 ft</li>
+          <li>Gundog Whistle + lanyard</li>
+          <li>Field first-aid pouch</li>
+          <li>Engraved name panel, free</li>
+        </ul>
+        <div class="price-row"><span class="now">$219</span><span class="was">$261</span></div>
+        <button class="btn blaze" onclick="addToCart('kit-field','First Season Kit',219,'field','Bundle')">Add kit to cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="big">Barry Supply Co.</div>
+        <p>Founded and run by Alisa in Northern Colorado. Home of Barry &amp; Field.</p>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <a href="shop.html">All everyday gear</a>
+        <a href="shop.html#leash">Leashes &amp; lines</a>
+        <a href="shop.html#collar">Collars &amp; harnesses</a>
+        <a href="shop.html#kits">Kits</a>
+        <a href="engraving.html">Engraving</a>
+      </div>
+      <div>
+        <h5>Barry &amp; Field</h5>
+        <a href="field.html">The hunting line</a>
+        <a href="field.html#dummy">Dummies &amp; retrieving</a>
+        <a href="field.html#track">Tracking</a>
+        <a href="field.html#carry">Carry &amp; safety</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="about.html">About Alisa &amp; Barry</a>
+        <a href="wholesale.html">Wholesale &amp; stockists</a>
+        <a href="contact.html">Fit check</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>Design draft. Prices, stock and product photos (Unsplash) are placeholders.</span>
+      <span>Shipping · Returns · Privacy</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+<aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart">
+  <div class="cart-head">
+    <h2 class="h-m">Your cart</h2>
+    <button class="cart-close" onclick="toggleCart()" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="ship-bar">
+    <p id="ship-msg">Free shipping over $75</p>
+    <div class="track"><div class="fill" id="ship-fill"></div></div>
+  </div>
+  <div id="cart-items" class="cart-items"><p class="empty">Nothing in here yet. Start with a leash.</p></div>
+  <div class="cart-foot">
+    <div class="total-row"><span>Subtotal</span><strong id="cart-total">$0</strong></div>
+    <button class="btn acc wide" onclick="fakeCheckout(this)">Checkout</button>
+    <p class="tiny" style="text-align:center;margin-top:12px">Demo checkout. No payment is processed.</p>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
