@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>About · Barry Supply Co.</title>
+<meta name="description" content="Barry Supply Co. is a family run dog gear shop founded by Alisa in Northern Colorado, with the Barry &amp; Field hunting line selected by Josh.">
+<meta property="og:title" content="About · Barry Supply Co.">
+<meta property="og:description" content="Barry Supply Co. is a family run dog gear shop founded by Alisa in Northern Colorado, with the Barry &amp; Field hunting line selected by Josh.">
+<meta property="og:image" content="assets/img/hero-water.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Geist:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.className='js';</script>
+</head>
+<body data-mode="everyday" data-page="about">
+<a class="skip" href="#main">Skip to content</a>
+<div class="top">
+  <div class="wrap">
+    <span>Shipped from Northern Colorado</span>
+    <span>Free shipping over $75</span>
+    <span>Engraved in house</span>
+  </div>
+</div>
+<header id="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="dot"></span><b>Barry Supply Co.</b></a>
+    <nav aria-label="Main"><ul class="nav-links">
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="field.html">Barry &amp; Field</a></li>
+      <li><a href="engraving.html">Engraving</a></li>
+      <li><a href="wholesale.html">Wholesale</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+    <button class="cart-btn" onclick="toggleCart()" aria-label="Open cart">Cart <i id="cart-count">0</i></button>
+  </div>
+  <nav aria-label="Main mobile"><ul class="nav-scroll">
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="field.html">Barry &amp; Field</a></li>
+      <li><a href="engraving.html">Engraving</a></li>
+      <li><a href="wholesale.html">Wholesale</a></li>
+      <li><a href="about.html" aria-current="page">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </ul></nav>
+</header>
+
+<main id="main">
+<section class="shell" id="about">
+  <div class="wrap founder rv">
+    <div class="pic"><img src="assets/img/alisa-family.jpg" alt="Alisa, Barry and the family at home" loading="lazy"></div>
+    <div>
+      <div class="label acc">The founder</div>
+      <h1 class="h-l" style="margin-top:14px">Alisa built this shop, and she packs your box.</h1>
+      <p class="lede" style="margin-top:20px">Barry Supply Co. is hers. She started it because a mother with a toddler and a Small Munsterlander has strong opinions about what a leash has to survive.</p>
+      <p class="lede" style="margin-top:14px">She runs the everyday line, answers your email, keeps the shelves in order and engraves the pieces that can carry a name. Josh selects and field-tests the Barry &amp; Field hunting line. Barry supervises, badly.</p>
+      <div class="roles">
+        <div><h4>Alisa · Founder</h4><p>Everyday line, customer care, inventory, shipping and engraving.</p></div>
+        <div><h4>Josh · Field line</h4><p>Selection and season testing of the Barry &amp; Field hunting gear.</p></div>
+        <div><h4>Barry · Small Munsterlander</h4><p>Wears it, drags it through water, decides what stays in the catalog.</p></div>
+        <div><h4>Northern Colorado</h4><p>Every order picked, engraved and shipped from one room at home.</p></div>
+      </div>
+      <p class="sig">Written by Alisa. She answers every email herself.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="big">Barry Supply Co.</div>
+        <p>Founded and run by Alisa in Northern Colorado. Home of Barry &amp; Field.</p>
+      </div>
+      <div>
+        <h5>Shop</h5>
+        <a href="shop.html">All everyday gear</a>
+        <a href="shop.html#leash">Leashes &amp; lines</a>
+        <a href="shop.html#collar">Collars &amp; harnesses</a>
+        <a href="shop.html#kits">Kits</a>
+        <a href="engraving.html">Engraving</a>
+      </div>
+      <div>
+        <h5>Barry &amp; Field</h5>
+        <a href="field.html">The hunting line</a>
+        <a href="field.html#dummy">Dummies &amp; retrieving</a>
+        <a href="field.html#track">Tracking</a>
+        <a href="field.html#carry">Carry &amp; safety</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="about.html">About Alisa &amp; Barry</a>
+        <a href="wholesale.html">Wholesale &amp; stockists</a>
+        <a href="contact.html">Fit check</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>Design draft. Prices, stock and product photos (Unsplash) are placeholders.</span>
+      <span>Shipping · Returns · Privacy</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+<aside class="cart-drawer" id="cart-drawer" aria-label="Shopping cart">
+  <div class="cart-head">
+    <h2 class="h-m">Your cart</h2>
+    <button class="cart-close" onclick="toggleCart()" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="ship-bar">
+    <p id="ship-msg">Free shipping over $75</p>
+    <div class="track"><div class="fill" id="ship-fill"></div></div>
+  </div>
+  <div id="cart-items" class="cart-items"><p class="empty">Nothing in here yet. Start with a leash.</p></div>
+  <div class="cart-foot">
+    <div class="total-row"><span>Subtotal</span><strong id="cart-total">$0</strong></div>
+    <button class="btn acc wide" onclick="fakeCheckout(this)">Checkout</button>
+    <p class="tiny" style="text-align:center;margin-top:12px">Demo checkout. No payment is processed.</p>
+  </div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
